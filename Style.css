@@ -1,0 +1,166 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Georgia, serif; 
+}
+
+nav {
+    background-color: #d7c4a3; 
+    padding: 15px 0; 
+}
+
+nav ul {
+    display: flex; /* جعل العناصر على صف واحد */
+    justify-content: center; /* توسيط العناصر */
+    list-style: none; /* إزالة النقاط */
+}
+
+nav ul li {
+    margin: 0 20px; /* مسافة بين الروابط */
+}
+
+nav ul li a {
+    text-decoration: none; /* إزالة الخط من الرابط */
+    font-size: 18px; /* حجم خط الروابط */
+    color: #4a3b2a; /* لون النص */
+    font-weight: bold; /* تخين */
+}
+
+nav ul li a:hover {
+    color: #8b6a3b; /* لون عند المرور */
+}
+/*.......... Home Page.......... */
+.home-page {
+    background: url("images/Background.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.home-page .hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff1d6;
+    text-shadow: 0 0 8px #000;
+}
+
+.home-page .hero h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.home-page .hero p {
+    font-size: 22px;
+}
+
+.home-page .btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #4a3b2a;
+    color: #fff;
+    text-decoration: none;
+}
+
+.home-page .btn:hover {
+    background: #74593b;
+} 
+/* .......... Exhibits Page ..........*/
+.exhibits-page {
+    background: url("images/Background.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+.exhibits-page .section {
+    color: #fff1d6;
+    padding: 50px;
+    text-align: center;
+    text-shadow: 0 0 8px #000;
+}
+
+.exhibits-page .exhibits-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.exhibits-page .exhibit-box {
+    width: 300px;
+    background: #f9f9f9;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 8px #000;
+}
+
+.exhibits-page .gallery-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* .......... About Page..........*/
+.about-page {
+    background: url("images/Background.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.about-page .section {
+    color: #f7f4ef;
+    padding: 50px;
+    text-align: center;
+    text-shadow: 0 0 8px #000;
+}
+
+.about-page .section h2 {
+    color: #fff1d6;
+    margin-bottom: 20px;
+}
+/* ..........Contact Page..........*/
+.contact-page {
+    background: url("images/Background.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+.contact-page .section {
+    color: #fff1d6;
+    padding: 50px;
+    text-align: center;
+    text-shadow: 0 0 8px #000;
+}
+
+.contact-page form {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-page input,
+.contact-page textarea {
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #bfa98a;
+}
+textarea{
+    height: 150px;
+}
+.contact-page button {
+    background: #4a3b2a;
+    color: #fff;
+    padding: 12px;
+}
+
+.contact-page button:hover {
+    background: #775c3c;
+}
+/*..........Footer..........*/
+
+footer {
+    color: #000;
+    margin-top: 50px; 
+    text-align: center; 
+    padding: 20px;
+    background: #d7c4a3; /* لون خلفية الفوتر */
+}
